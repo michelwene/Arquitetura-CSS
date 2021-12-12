@@ -1,0 +1,16 @@
+.Banner__imagem {
+  background: url("../../img/banner.jpg") no-repeat center / cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .Banner__imagem {
+    height: calc(100vw - 51px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Banner__imagem {
+    height: calc(100vh - 72px);
+  }
+}
